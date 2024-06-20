@@ -5,14 +5,16 @@ import dexbanner from './assets/banner.png';
 import noland from './assets/nolandpfp.jpg';
 import Marquee from './components/Marquee';
 import gracie from './assets/cracie.webp';
+import FloatingEmojis from './components/FloatingEmojis';
 
 function App() {
   const [isOpen, setIsopen] = useState(true);
 
   return (
     <>
+      <FloatingEmojis />
       <div
-        className="w-full overflow-hidden"
+        className="relative z-20 w-full overflow-hidden"
         style={{ fontFamily: 'Roboto, sans-serif' }}
       >
         <main className="w-full mt-4">
@@ -22,7 +24,7 @@ function App() {
                 "Gracie's the real star of the show."
               </p>
               <p className="font-medium text-[14px] lg:text-[28px] text-black/75">
-                - Noland Arbaugh, Worlds first Neuralink transplant receipient
+                - Noland Arbaugh, Worlds first Neuralink transplant recipient
               </p>
             </div>
             <img
