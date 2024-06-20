@@ -17,13 +17,13 @@ function App() {
         className="relative z-20 w-full overflow-hidden"
         style={{ fontFamily: 'Roboto, sans-serif' }}
       >
-        <main className="w-full mt-4">
+        <main className="w-full mt-4 flex flex-col items-center">
           <div className="mx-[5vw] p-4 lg:mb-40 justify-between lg:justify-center lg:items-center lg:gap-12 flex">
             <div className="max-w-[50%] flex flex-col gap-4">
-              <p className="italic text-[20px] lg:text-[52px] font-semibold">
+              <p className="italic text-[20px] sm:text-[36px] lg:text-[52px] font-semibold">
                 "Gracie's the real star of the show."
               </p>
-              <p className="font-medium text-[14px] lg:text-[28px] text-black/75">
+              <p className="font-medium text-[14px] sm:text-[18px] lg:text-[28px] text-black/75">
                 - Noland Arbaugh, Worlds first Neuralink transplant recipient
               </p>
             </div>
@@ -35,8 +35,8 @@ function App() {
           </div>
           <div className="w-full flex justify-center gap-4 flex-col items-center my-8 lg:mb-40">
             <div className="flex flex-col items-center gap-2">
-              <h1 className="text-3xl font-bold lg:text-[52px]">$Gracie</h1>
-              <h2 className="text-[12px] lg:text-[20px] text-black/75">
+              <h1 className="text-3xl font-bold sm:text-[52px]">$Gracie</h1>
+              <h2 className="text-[12px] sm:text-[20px] text-black/75">
                 HE3bra2UhdhBrCX1yzLHFVjFaFp591zSMvYzo3ropump
               </h2>
             </div>
@@ -47,24 +47,24 @@ function App() {
               pill
             />
           </div>
-          <div className="flex justify-between lg:justify-center mx-4 my-8 lg:mb-40">
+          <div className="flex justify-between lg:justify-center mx-4 max-w-[1200px] my-8 lg:gap-20 lg:mb-40">
             <div className="w-[70%] flex flex-col items-center gap-2 lg:w-fit">
               <img
-                className="w-[70%] lg:w-fit h-auto rounded-xl shadow-lg max-w-[666px]"
+                className="w-[100%] lg:w-fit h-auto rounded-xl shadow-lg max-w-[666px]"
                 src={gracie}
                 alt="gracie"
               />
-              <p className="font-bold text-center lg:text-[20px]">
+              <p className="font-semibold text-center sm:text-[20px]">
                 The cutest Neuralink companion you could wish for
               </p>
             </div>
             <div className="flex gap-1 mx-auto justify-start lg:justify-center flex-col items-center rounded-xl">
               <div className="flex items-center">
-                <ul className="m-auto flex flex-col items-center xl:flex-row xl:gap-10 justify-center gap-4">
+                <ul className="m-auto flex flex-col items-center xl:flex-row sm:gap-8 xl:gap-10 justify-center gap-4">
                   <li>
                     <a target="_blank" href="https://x.com/gracieneuralink">
                       <svg
-                        className="h-8 lg:h-20 w-auto"
+                        className="h-8 sm:h-14 lg:h-20 w-auto"
                         stroke="currentColor"
                         fill="#1DA1F2"
                         strokeWidth="0"
@@ -82,7 +82,7 @@ function App() {
                   <li>
                     <a target="_blank" href="https://t.me/GRACIECTO">
                       <svg
-                        className="h-8 lg:h-20 w-auto"
+                        className="h-8 sm:h-14 lg:h-20 w-auto"
                         stroke="currentColor"
                         fill="#0088CC"
                         strokeWidth="0"
@@ -103,7 +103,7 @@ function App() {
                       href="https://dexscreener.com/solana/6klgpnbpbzmuiuvcueebrhva4maqrknrcryiknyr8cdj"
                     >
                       <svg
-                        className="h-8 lg:h-20 w-auto"
+                        className="h-8 sm:h-14 lg:h-20 w-auto"
                         xmlns="http://www.w3.org/2000/svg"
                         width="100%"
                         height="100%"
@@ -123,7 +123,7 @@ function App() {
                       href="https://www.dextools.io/app/en/solana/pair-explorer/6kLgPnBpBzMUiUvcUEebrHva4MAQRknrcRYiknYR8cdj?t=1718881339333"
                     >
                       <svg
-                        className="h-8 lg:h-20 w-auto"
+                        className="h-8 sm:h-14 lg:h-20 w-auto"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         height="2500"
