@@ -6,6 +6,7 @@ import noland from './assets/nolandpfp.jpg';
 import Marquee from './components/Marquee';
 import gracie from './assets/cracie.webp';
 import FloatingEmojis from './components/FloatingEmojis';
+import gracielogo from './assets/gracielogo.png';
 
 function App() {
   const [isOpen, setIsopen] = useState(true);
@@ -17,7 +18,14 @@ function App() {
         className="relative z-20 w-full overflow-hidden"
         style={{ fontFamily: 'Roboto, sans-serif' }}
       >
-        <main className="w-full mt-4 flex flex-col items-center">
+        <div>
+          <img
+            src={gracielogo}
+            className="h-16 w-auto fixed top-4 left-4"
+            alt="gracie logo"
+          />
+        </div>
+        <main className="w-full mt-16 flex flex-col items-center">
           <div className="mx-[5vw] p-4 lg:mb-40 justify-between lg:justify-center lg:items-center lg:gap-12 flex">
             <div className="max-w-[50%] flex flex-col gap-4">
               <p className="italic text-[20px] sm:text-[36px] lg:text-[52px] font-semibold">
