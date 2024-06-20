@@ -26,8 +26,8 @@ function App() {
           />
         </div>
         <main className="w-full mt-4 flex flex-col items-center">
-          <div className="mx-[5vw] p-4 lg:mb-40 justify-between lg:justify-center lg:items-center lg:gap-12 flex">
-            <div className="max-w-[50%] flex flex-col gap-4">
+          <div className="mx-[5vw] lg:mb-40 justify-between lg:justify-center sm:items-center lg:gap-12 flex">
+            <div className="max-w-[40%] flex flex-col gap-4">
               <p className="italic text-[20px] sm:text-[36px] lg:text-[52px] font-semibold">
                 "Gracie's the real star of the show."
               </p>
@@ -35,11 +35,13 @@ function App() {
                 - Noland Arbaugh, Worlds first Neuralink transplant recipient
               </p>
             </div>
-            <img
-              className="rounded-full w-[40%] max-w-[500px] h-auto"
-              src={noland}
-              alt="noland"
-            />
+            <div className="max-w-[50%]">
+              <img
+                className="rounded-full w-full max-w-[500px] h-auto"
+                src={noland}
+                alt="noland"
+              />
+            </div>
           </div>
           <div className="w-full flex justify-center gap-4 flex-col items-center my-8 lg:mb-40">
             <div className="flex flex-col items-center gap-2">
