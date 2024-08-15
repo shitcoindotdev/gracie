@@ -2,13 +2,13 @@ import { useState } from 'react'
 import Button from './components/Button'
 import banner from './assets/banner.jpeg'
 import dexbanner from './assets/banner.png'
-import noland from './assets/nolandpfp.jpg'
+import gracie3 from './assets/gracie.jpeg'
 import Marquee from './components/Marquee'
 import gracie from './assets/cracie.webp'
 import FloatingEmojis from './components/FloatingEmojis'
 import gracielogo from './assets/gracielogo.png'
 import pumppill from './assets/logo.webp'
-
+import { TwitterTweetEmbed } from 'react-twitter-embed'
 function App() {
   const [isOpen, setIsopen] = useState(true)
 
@@ -39,11 +39,12 @@ function App() {
             <div className="max-w-[50%]">
               <img
                 className="rounded-full w-full max-w-[500px] h-auto"
-                src={noland}
+                src={gracie3}
                 alt="noland"
               />
             </div>
           </div>
+          <TwitterTweetEmbed tweetId="1824208235475198311" />
           <div className="w-full flex justify-center gap-4 flex-col items-center my-8 lg:mb-40">
             <div className="flex flex-col items-center gap-2">
               <h1 className="text-3xl font-bold sm:text-[52px]">$Gracie</h1>
