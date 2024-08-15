@@ -42,10 +42,10 @@ function App() {
           <a
             href="https://x.com/ModdedQuad/status/1824208235475198311"
             target="_blank"
-            className="rounded-xl overflow-hidden"
+            className="rounded-xl overflow-hidden p-4"
           >
             <img
-              className="w-[600px] max-w-full p-4 h-auto rounded-xl"
+              className="w-[600px] max-w-full h-auto rounded-xl"
               src={gracie2}
               width="600"
               height="600"
