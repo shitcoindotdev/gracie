@@ -1,13 +1,11 @@
 import { useState } from 'react'
 import Button from './components/Button'
 import banner from './assets/banner.jpeg'
-import dexbanner from './assets/banner.png'
 import gracie3 from './assets/gracie.jpeg'
 import Marquee from './components/Marquee'
 import gracie from './assets/cracie.webp'
 import FloatingEmojis from './components/FloatingEmojis'
 import gracielogo from './assets/gracielogo.png'
-import pumppill from './assets/logo.webp'
 import { TwitterTweetEmbed } from 'react-twitter-embed'
 function App() {
   const [isOpen, setIsopen] = useState(true)

@@ -1,5 +1,3 @@
-import pumppill from '../assets/logo.webp';
-
 const Button = (props) => {
   return (
     <a
@@ -15,10 +13,9 @@ const Button = (props) => {
         className={`${props.textClasses} flex items-center justify-center gap-2`}
       >
         {props.text}
-        {props.pill && <img className="h-4 w-auto" src={pumppill} />}
       </span>
     </a>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button
