@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Button from './components/Button'
 import banner from './assets/banner.jpeg'
 import gracie3 from './assets/gracie.jpeg'
@@ -8,8 +7,6 @@ import FloatingEmojis from './components/FloatingEmojis'
 import gracielogo from './assets/gracielogo.png'
 import { TwitterTweetEmbed } from 'react-twitter-embed'
 function App() {
-  const [isOpen, setIsopen] = useState(true)
-
   return (
     <>
       <FloatingEmojis />
