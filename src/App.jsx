@@ -42,6 +42,7 @@ function App() {
           <a
             href="https://x.com/ModdedQuad/status/1824208235475198311"
             target="_blank"
+            className="rounded-xl overflow-hidden"
           >
             <img
               className="w-[600px] max-w-full p-4 h-auto rounded-xl"
