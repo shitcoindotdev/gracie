@@ -1,16 +1,16 @@
-import { useState } from 'react';
-import Button from './components/Button';
-import banner from './assets/banner.jpeg';
-import dexbanner from './assets/banner.png';
-import noland from './assets/nolandpfp.jpg';
-import Marquee from './components/Marquee';
-import gracie from './assets/cracie.webp';
-import FloatingEmojis from './components/FloatingEmojis';
-import gracielogo from './assets/gracielogo.png';
-import pumppill from './assets/logo.webp';
+import { useState } from 'react'
+import Button from './components/Button'
+import banner from './assets/banner.jpeg'
+import dexbanner from './assets/banner.png'
+import noland from './assets/nolandpfp.jpg'
+import Marquee from './components/Marquee'
+import gracie from './assets/cracie.webp'
+import FloatingEmojis from './components/FloatingEmojis'
+import gracielogo from './assets/gracielogo.png'
+import pumppill from './assets/logo.webp'
 
 function App() {
-  const [isOpen, setIsopen] = useState(true);
+  const [isOpen, setIsopen] = useState(true)
 
   return (
     <>
@@ -188,7 +188,10 @@ function App() {
                 <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-[250ms] ease-in-out peer-open:grid-rows-[1fr]">
                   <div className="overflow-hidden">
                     <div className="group-open:border-t-1 mx-4 flex -translate-y-3 flex-col gap-4 border-t border-white py-3 text-left text-rose-50 transition-all duration-[250ms] ease-in-out">
-                      <p>Gracie is Nolands Fluffy Doggo</p>
+                      <p>
+                        Gracie is Nolands Golden Doodle and will be the first
+                        Dog to receive a Neuralink chip
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -199,7 +202,7 @@ function App() {
       </div>
       <Marquee imageSrc={banner} altText="neurolution" speed="10" />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
