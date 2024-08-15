@@ -44,7 +44,7 @@ function App() {
             target="_blank"
           >
             <img
-              className="w-[600px] max-w-full p-4 h-auto"
+              className="w-[600px] max-w-full p-4 h-auto rounded-xl"
               src={gracie2}
               width="600"
               height="600"
