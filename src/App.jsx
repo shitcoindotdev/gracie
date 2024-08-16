@@ -33,7 +33,7 @@ function App() {
             </div>
             <div className="max-w-[50%]">
               <img
-                className="rounded-full w-full max-w-[500px] h-auto"
+                className="rounded-full w-full max-w-[500px] max-h-[500px]"
                 src={gracie3}
                 alt="noland"
               />
@@ -45,7 +45,7 @@ function App() {
             className="rounded-xl overflow-hidden p-4"
           >
             <img
-              className="w-[600px] max-w-full h-auto rounded-xl"
+              className="w-[600px] max-w-full h-auto"
               src={gracie2}
               width="600"
               height="600"
