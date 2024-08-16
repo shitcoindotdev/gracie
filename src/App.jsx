@@ -45,7 +45,7 @@ function App() {
             className="rounded-xl overflow-hidden p-4"
           >
             <img
-              className="w-[600px] max-w-full h-auto"
+              className="w-[600px] rounded-xl max-w-full h-auto"
               src={gracie2}
               width="600"
               height="600"
